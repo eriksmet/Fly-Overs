@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fly-over Dashboard</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #f3f4f6;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: #1f2937;
+        }
+        .container {
+            text-align: center;
+            background: white;
+            padding: 3rem;
+            border-radius: 16px;
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+            max-width: 480px;
+            width: 90%;
+        }
+        h1 {
+            margin-top: 0;
+            margin-bottom: 0.5rem;
+            font-size: 2rem;
+            color: #111827;
+            font-weight: 700;
+            letter-spacing: -0.025em;
+        }
+        p {
+            color: #6b7280;
+            margin-bottom: 2.5rem;
+            font-size: 1rem;
+        }
+        .button-group {
+            display: flex;
+            flex-direction: column;
+            gap: 1.25rem;
+        }
+        .btn {
+            display: block;
+            padding: 1.1rem;
+            text-decoration: none;
+            color: white;
+            border-radius: 10px;
+            font-weight: 600;
+            font-size: 1.1rem;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+            transition: all 0.2s ease;
+        }
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+        }
+        .btn:active {
+            transform: translateY(0);
+        }
+        /* Mont Garni Style */
+        .btn-garni {
+            background-color: #b91c1c; /* Deep Red */
+        }
+        .btn-garni:hover {
+            background-color: #991b1b;
+        }
+        /* Arenberg Style */
+        .btn-arenberg {
+            background-color: #065f46; /* Forest Green */
+        }
+        .btn-arenberg:hover {
+            background-color: #064e3b;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Fly-over Displays</h1>
+        <p>Select a location below to launch the view:</p>
+        
+        <div class="button-group">
+            <a href="Mont-Garni-Fly-over.html" class="btn btn-garni">Mont Garni Fly-over</a>
+            <a href="Arenberg-Fly-over.html" class="btn btn-arenberg">Arenberg Fly-over</a>
+        </div>
+    </div>
+
+</body>
+</html>
